@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: blueviolet;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    flex-direction: column;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    display: block;
+    width: 50%;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
